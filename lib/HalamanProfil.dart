@@ -311,11 +311,13 @@ class _halamanprofilState extends State<halamanprofil> {
                  color:  Colors.white
                 ),
                 ),
+                SizedBox(height: 3,),
                 Text("+6282216206676",
                  style: TextStyle(
                  color:  Colors.white
                 ),
                 ),
+                SizedBox(height: 3,),
                 Text("jl.Kapten Jamhur Cimenyan 2 Banjar Jawa Barat",
                  style: TextStyle(
                  color:  Colors.white

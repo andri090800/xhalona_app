@@ -131,6 +131,9 @@ class Checkout extends StatelessWidget{
                   ),
                    Divider(thickness: 1,),
                   ListTile(
+                    onTap: (){
+                      Navigator.pushNamed(context, "/mepe");
+                    },
                   leading:Image.asset("image/Group.png"),
                   title: Text("Metode Pembayaran"),
                   trailing: Text("Silahkan Pilih Metode Pembayaran",style: TextStyle(color: Colors.grey),),
