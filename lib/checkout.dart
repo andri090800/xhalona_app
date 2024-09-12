@@ -188,8 +188,9 @@ class Checkout extends StatelessWidget{
                          height: 35,
                           width: 125,
                            child: ElevatedButton(onPressed: (){
-                            Navigator.pushNamed(context, "/checkout");
-                           },                           
+                            Navigator.pushNamed(context, "/pebe");
+                           },         
+                                             
                            style: ElevatedButton.styleFrom(
                             elevation: 0,
                             backgroundColor: Color(0xffC0226D),

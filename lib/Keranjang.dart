@@ -294,16 +294,21 @@ class _keranjangState extends State<Keranjang> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Checkbox(value: false, onChanged: (value){}),
-                            Container(
-                              width: 117,
-                              height: 80,
-                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(10),
-                              image: DecorationImage(
-                                image: AssetImage("image/cukur.png"),
-                                fit: BoxFit.cover
+                            GestureDetector(
+                              onTap: (){
+                                Navigator.pushNamed(context, "/depa");
+                              },
+                              child: Container(
+                                width: 117,
+                                height: 80,
+                               decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(10),
+                                image: DecorationImage(
+                                  image: AssetImage("image/cukur.png"),
+                                  fit: BoxFit.cover
+                                ),
+                               ),
                               ),
-                             ),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),

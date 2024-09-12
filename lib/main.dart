@@ -6,7 +6,10 @@ import 'package:xhalon_app/Keranjang.dart';
 import 'package:xhalon_app/boking.dart';
 import 'package:xhalon_app/alamat.dart';
 import 'package:xhalon_app/checkout.dart';
+import 'package:xhalon_app/detailproduk.dart';
 import 'package:xhalon_app/metodepembayaran.dart';
+import 'package:xhalon_app/Pebe.dart';
+
 
 
 
@@ -29,6 +32,8 @@ class MyApp extends StatelessWidget {
         '/alamat' : (context) => Alamat(),
         '/checkout' : (context) => Checkout(),
         '/mepe' : (context) => Mepe(),
+         '/pebe' : (context) => Pebe(),
+         '/depa' : (context) => DetailProduk(),
 
       },
     );
