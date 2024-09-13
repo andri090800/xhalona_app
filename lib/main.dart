@@ -9,6 +9,7 @@ import 'package:xhalon_app/checkout.dart';
 import 'package:xhalon_app/detailproduk.dart';
 import 'package:xhalon_app/metodepembayaran.dart';
 import 'package:xhalon_app/Pebe.dart';
+import 'package:xhalon_app/rincianpesanan.dart';
 
 
 
@@ -34,6 +35,7 @@ class MyApp extends StatelessWidget {
         '/mepe' : (context) => Mepe(),
          '/pebe' : (context) => Pebe(),
          '/depa' : (context) => DetailProduk(),
+         '/rincian' : (context) => Rincianpesanan(),
 
       },
     );

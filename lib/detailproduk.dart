@@ -11,7 +11,7 @@ class DetailProduk extends StatelessWidget{
         elevation: 0,
         leading: IconButton(
           onPressed: () {
-            Navigator.pushNamed(context, '/home');
+            Navigator.pushNamed(context, '/halamanprofil');
           },
           icon: Image.asset(
             "image/back.png",
@@ -33,7 +33,7 @@ class DetailProduk extends StatelessWidget{
         ),
         actions: <Widget>[
           Container(
-            width: 190,
+            width: 325,
             height: 36,
             child: TextFormField(
               decoration: InputDecoration(
@@ -76,8 +76,8 @@ class DetailProduk extends StatelessWidget{
         padding: EdgeInsets.all(8),
         children: [
           Container(
-              height: 250,
-              width: double.infinity,
+              height: 346,
+              width: 369,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(10)),
                 color: Colors.amber

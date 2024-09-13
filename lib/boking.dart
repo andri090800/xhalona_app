@@ -389,7 +389,7 @@ class _BokingState extends State<Boking> {
     return Row(
       children: [
         IconButton(onPressed: (){
-          Navigator.pushNamed(context, '/halamanprofil');
+          Navigator.pushNamed(context, '/checkout');
         }, icon: Icon(Icons.arrow_back,color: Colors.white,)),
         SizedBox(
           width:125,

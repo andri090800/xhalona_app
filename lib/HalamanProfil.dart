@@ -162,7 +162,7 @@ class _halamanprofilState extends State<halamanprofil> {
           ),
           ListTile(
             onTap: () {
-              Navigator.pushNamed(context, '/boking');
+              Navigator.pushNamed(context, "/rincian");
             },
             leading: Image.asset("image/Group.png"),
             title: Text("Pesanan Saya",
