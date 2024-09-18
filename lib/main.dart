@@ -10,6 +10,7 @@ import 'package:xhalon_app/detailproduk.dart';
 import 'package:xhalon_app/metodepembayaran.dart';
 import 'package:xhalon_app/Pebe.dart';
 import 'package:xhalon_app/rincianpesanan.dart';
+import 'package:xhalon_app/scanqr.dart';
 
 
 
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
          '/pebe' : (context) => Pebe(),
          '/depa' : (context) => DetailProduk(),
          '/rincian' : (context) => Rincianpesanan(),
+         '/scan' : (context) => Scanqr(),
 
       },
     );

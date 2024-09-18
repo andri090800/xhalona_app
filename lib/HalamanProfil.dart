@@ -78,27 +78,32 @@ class _halamanprofilState extends State<halamanprofil> {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: SizedBox(
-                  child: Container(
-                  width: 110,
-                  height: 70,
-                 decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(15)),
-                color: Color(0xffC0226D),
-                            ),
-                            child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Image.asset("image/reward.png"),
-                        Text("Reward",
-                        style:TextStyle(
-                          color: Colors.white
-                        ),
-                        )
-                      ],
+                  child: GestureDetector(
+                    onTap: (){
+                      Navigator.pushNamed(context, "/scan");
+                    },
+                    child: Container(
+                    width: 110,
+                    height: 70,
+                                     decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.all(Radius.circular(15)),
+                                    color: Color(0xffC0226D),
+                              ),
+                              child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.asset("image/reward.png"),
+                          Text("Scan Member",
+                          style:TextStyle(
+                            color: Colors.white
+                          ),
+                          )
+                        ],
+                      ),
+                    )
                     ),
-                  )
                   ),
                 ),
               ) ,
